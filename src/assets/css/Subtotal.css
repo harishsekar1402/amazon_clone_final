@@ -32,3 +32,11 @@
     cursor: pointer;
 }
  
+@media screen and (max-width:600px) {
+    .subtotal{
+        width: 200px;
+    }
+   .subtotal > button{
+    width: 90%;
+   }
+}

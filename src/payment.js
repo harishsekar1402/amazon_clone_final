@@ -64,9 +64,10 @@ function Payment() {
                                         thousandSeparator={true}
                                         prefix={"₹"}
                                     />
-                                    <button >
+                                    <Link to='/home'>
+                                    <button className='btn'>
                                         <span>Buy now</span>
-                                    </button>
+                                    </button></Link>
                                 </div>
 
                             </form>
